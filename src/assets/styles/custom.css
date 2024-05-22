@@ -23,7 +23,7 @@
     .footer-link {
         @apply font-inter text-cta text-[13px] font-normal leading-[19.5px];
     }
-    .footer-link-sm {S
+    .footer-link-sm {
         @apply font-inter text-cta text-[11px] font-normal leading-[16.5px];
     }
 }
