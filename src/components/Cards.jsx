@@ -10,7 +10,7 @@ const Cards = () => {
                         color={product.color}
                         title={product.title}
                         description={product.description}
-                        link={product.link}
+                        href={product.href}
                     />
                 ))
             }

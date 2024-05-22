@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-const SocialLink = ({ src: Icon, link}) => {
+const SocialLink = ({ src: Icon, href}) => {
     return (
         <li>
-            <a href={link}>
+            <a href={href}>
                 <Icon />
             </a>
         </li>
@@ -12,7 +12,7 @@ const SocialLink = ({ src: Icon, link}) => {
 
 SocialLink.propTypes = {
     src: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
 };
 
 export default SocialLink;

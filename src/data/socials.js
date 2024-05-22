@@ -8,24 +8,24 @@ export const socials = [
         id: 1,
         src: Instagram,
         alt: 'Instagram Icon',
-        link: "#"
+        href: "https://www.instagram.com/"
     },
     {
         id: 2,
         src: Telegram,
         alt: 'Telegram Icon',
-        link: "#"
+        link: "https://web.telegram.org/"
     },
     {
         id: 3,
         src: LinkedIn,
         alt: 'LinkedIn Icon',
-        link: "#"
+        link: "https://www.linkedin.com/"
     },
     {
         id: 4,
         src: Facebook,
         alt: 'Facebook Icon',
-        link: "#"
+        link: "https://www.facebook.com/"
     }
 ]

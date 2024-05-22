@@ -7,7 +7,7 @@ const Links = () => {
             {socials.map(social => (
                 <SocialLink
                     key={social.id}
-                    link={social.link}
+                    href={social.href}
                     src={social.src}
                 />
             ))}
