@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import colors from "./src/data/colors.js";
 
 export default {
   content: [
@@ -11,21 +12,31 @@ export default {
         inter: ["Inter", 'sans-serif'],
         mulish: ["Mulish", 'sans-serif']
       },
-      colors: {
-        primary: "#4B4B4B",
-        secondary: "#252323",
-        bg: "#EEF0F2",
-        border: "#C0C0C0",
-        placeholder: "#3B3B3B",
-        cta: "#3366FF",
-
-        card1: "#FFC800",
-        card2: "#2E68C0",
-        card3: "#EA1542",
-        card4: "#1D4ED8"
+      colors: colors,
+      backgroundImage: {
+        'hero-pattern': "url('./assets/images/HeroImage.png')",
+      },
+      gridTemplateColumns: {
+        'auto-fill-271': 'repeat(auto-fill, minmax(271px, 1fr))',
+      },
+      screens: {
+        sm: '425px'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.cut-multiline': {
+          display: '-webkit-box',
+          '-webkit-line-clamp': '3',
+          '-webkit-box-orient': 'vertical',
+          overflow: 'hidden',
+        },
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    },
+  ],
 }
 

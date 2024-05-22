@@ -11,16 +11,19 @@
     .main-text-sm {
         @apply font-inter text-primary text-sm font-normal leading-[21px];
     }
+    .card-title {
+        @apply font-inter text-secondary text-[18px] font-bold leading-[23.4px];
+    }
     .link {
         @apply font-mulish text-cta text-sm font-normal leading-[16.8px];
     }
-    .footer-link {
+    .btn-text {
         @apply font-inter text-white text-sm font-normal leading-[21px];
     }
-    .btn-text {
-        @apply font-inter text-white text-[13px] font-normal leading-[19.5px];
+    .footer-link {
+        @apply font-inter text-cta text-[13px] font-normal leading-[19.5px];
     }
-    .btn-text-sm {
-        @apply font-inter text-white text-[11px] font-normal leading-[16.5px];
+    .footer-link-sm {S
+        @apply font-inter text-cta text-[11px] font-normal leading-[16.5px];
     }
 }
