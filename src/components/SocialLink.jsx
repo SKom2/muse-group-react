@@ -13,7 +13,7 @@ const SocialLink = ({ src: Icon, href}) => {
 };
 
 SocialLink.propTypes = {
-    src: PropTypes.string.isRequired,
+    src: PropTypes.elementType.isRequired,
     href: PropTypes.string.isRequired,
 };
 

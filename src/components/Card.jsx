@@ -12,7 +12,7 @@ const Card = ({ title, color, description, href }) => {
 
 Card.propTypes = {
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.node.isRequired,
     color: PropTypes.string.isRequired,
     href: PropTypes.string.isRequired,
 };

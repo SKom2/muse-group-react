@@ -22,7 +22,7 @@ const CardInfo = ({ title, description, href }) => {
 
 CardInfo.propTypes = {
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.node.isRequired,
     href: PropTypes.string.isRequired,
 };
 
