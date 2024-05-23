@@ -12,7 +12,11 @@ export const products = [
         id: 2,
         color: colors.card2,
         title: "MuseScore",
-        description: "Create, play back, and print sheet music with free open source notation software.",
+        description: (
+            <>
+                Create, play back, and print<br/>sheet music with free open<br />source notation software.
+            </>
+        ),
         href: "/#"
     },
     {

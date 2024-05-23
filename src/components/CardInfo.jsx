@@ -9,8 +9,11 @@ const CardInfo = ({ title, description, href }) => {
                     <h3 className="card-title">{title}</h3>
                     <p className="main-text cut-multiline">{description}</p>
                 </div>
-                <a href={href} className="link flex items-center gap-2 h-[33px]">
-                    Read more <RightArrow />
+                <a href={href} className="link flex items-center gap-2 h-[33px] transition hover:translate-x-2">
+                    Read more
+                    <button type="button" className="h-[14px] w-[14px] flex justify-center items-center">
+                        <RightArrow />
+                    </button>
                 </a>
             </div>
         </div>

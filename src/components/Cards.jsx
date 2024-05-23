@@ -1,4 +1,4 @@
-import {products} from "@data/products.js";
+import {products} from "@data/products.jsx";
 import Card from "@components/Card.jsx";
 
 const Cards = () => {

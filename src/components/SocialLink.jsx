@@ -2,8 +2,10 @@ import PropTypes from "prop-types";
 
 const SocialLink = ({ src: Icon, href}) => {
     return (
-        <li>
-            <a href={href}>
+        <li
+            className="max-h-6 max-w-6"
+        >
+            <a href={href} className="transition hover:opacity-75">
                 <Icon />
             </a>
         </li>
