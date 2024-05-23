@@ -2,7 +2,7 @@ import FormButton from "@ui/FormButton.jsx";
 import {useForm} from "react-hook-form";
 
 const Form = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm()
+    const { register, handleSubmit } = useForm()
 
     const onSubmit = (data) => {
         if (data.email) {
