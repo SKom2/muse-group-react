@@ -20,7 +20,6 @@ This project is a part of the Muse Group Frontend Academy assignment. The goal i
    - Display "Email is invalid" alert if validation fails.
 3. Code hosted in a public GitHub repository.
 4. Deployed on GitHub Pages.
-5. Submit the repository and site link.
 
 ## Features
 
