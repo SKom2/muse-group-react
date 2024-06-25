@@ -65,8 +65,8 @@ To use the email validation functionality:
 
 ## Links
 
-- **Live Site**: [https://skom2.github.io/muse-group-react/](https://skom2.github.io/muse-group-react/))
-- **Figma Design**: [https://www.figma.com/design/iOMiDpTOmhnBRgAtkDWgpR/Muse-Group-Frontend-Academy?node-id=4009-121&t=ZATCLyRFibW9AZzZ-0](https://www.figma.com/design/iOMiDpTOmhnBRgAtkDWgpR/Muse-Group-Frontend-Academy?node-id=4009-121&t=ZATCLyRFibW9AZzZ-0)
+-  [**Live Site**](https://skom2.github.io/muse-group-react/)
+-  [**Figma Design**](https://www.figma.com/design/iOMiDpTOmhnBRgAtkDWgpR/Muse-Group-Frontend-Academy?node-id=4009-121&t=ZATCLyRFibW9AZzZ-0)
 
 ---
 
