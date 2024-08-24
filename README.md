@@ -1,25 +1,6 @@
-# Muse Group Frontend Academy
+# Muse Group Frontend Academy Landing Page Layout
 
 This project is a responsive web page for Muse Group Frontend Academy, created using Vite, React, and Tailwind CSS. The page includes email validation functionality and deployment on GitHub Pages.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-
-## Project Overview
-
-This project is a part of the Muse Group Frontend Academy assignment. The goal is to create a responsive webpage with the following requirements:
-
-1. Responsive layout implemented using any preferred method.
-2. Email field validation on form button click and Enter key press.
-   - Display "Welcome to the team!" alert if validation is successful.
-   - Display "Email is invalid" alert if validation fails.
-3. Code hosted in a public GitHub repository.
-4. Deployed on GitHub Pages.
 
 ## Features
 
@@ -53,15 +34,6 @@ To set up the project locally, follow these steps:
     ```bash
     yarn run dev
     ```
-
-
-## Usage
-
-To use the email validation functionality:
-
-1. Enter a valid email address in the input field.
-2. Click the "Join" button or press the Enter key.
-3. An alert will display either "Welcome to the team!" for valid emails or "Email is invalid" for invalid emails.
 
 ## Links
 
